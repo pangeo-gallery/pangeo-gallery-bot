@@ -1,3 +1,5 @@
+import os
+
 import aiohttp
 import asyncio
 from fastapi import FastAPI, HTTPException
@@ -7,7 +9,7 @@ import gidgethub.aiohttp
 GITHUB_URL = URL("https://github.com")
 GALLERY_URL = URL("http://gallery.pangeo.io")
 GALLERY_REPO = "pangeo-gallery/pangeo-gallery"
-OAUTH_TOKEN = ''
+OAUTH_TOKEN = os.environ('GITHUB_TOKEN')
 REQUESTER = 'pangeo-gallery-bot'
 
 _session = None
