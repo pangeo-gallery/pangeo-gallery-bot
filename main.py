@@ -7,7 +7,7 @@ import gidgethub.aiohttp
 GITHUB_URL = URL("https://github.com")
 GALLERY_URL = URL("http://gallery.pangeo.io")
 GALLERY_REPO = "pangeo-gallery/pangeo-gallery"
-OAUTH_TOKEN = 'c9561d4fc2cc42078f25b61e28e1f33f681b6a09'
+OAUTH_TOKEN = ''
 REQUESTER = 'pangeo-gallery-bot'
 
 _session = None
