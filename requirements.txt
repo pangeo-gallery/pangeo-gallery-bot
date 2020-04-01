@@ -1,4 +1,6 @@
 aiohttp
-gidgethub
 fastapi
+gidgethub
+gunicorn
+uvicorn
 yarl
